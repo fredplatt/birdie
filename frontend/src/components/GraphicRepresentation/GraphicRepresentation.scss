@@ -1,0 +1,9 @@
+@import "../../common/styling/StylingVariables.scss";
+
+img:hover {
+  color: $brand-secondary;
+}
+.icon {
+  color: $brand-primary;
+  margin: 5px;
+}

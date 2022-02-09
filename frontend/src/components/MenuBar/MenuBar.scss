@@ -1,0 +1,49 @@
+@import "../../common/styling/StylingVariables.scss";
+
+.menu-bar {
+  height: 96vh;
+  width: 23%;
+  max-width: 300px;
+  background-color: $brand-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 5px 0 0;
+  padding: 20px;
+  img {
+    margin: 15px;
+    width: 90%;
+  }
+}
+
+.menu-text-element {
+  cursor: pointer;
+  margin: 20px 15px;
+  padding: 3px 0;
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  text-decoration: none;
+  border-bottom: 2px solid $brand-secondary;
+}
+.menu-text-element:hover {
+  color: $brand-secondary;
+}
+
+@media only screen and (max-width: 770px) {
+  .menu-text-element {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-text-element {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .menu-text-element {
+    font-size: 0.8rem;
+  }
+}

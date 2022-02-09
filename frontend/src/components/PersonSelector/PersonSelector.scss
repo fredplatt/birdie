@@ -1,0 +1,6 @@
+@import "../../common/styling/StylingVariables.scss";
+
+.selected {
+  cursor: default !important;
+  color: $brand-secondary !important;
+}
